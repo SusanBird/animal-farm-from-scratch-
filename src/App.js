@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import { animals } from './data';
-import Main from './Main';
+import Main from './Main/Main';
 
 function App() {
   return (
