@@ -1,7 +1,7 @@
-export default function Header({ text }) {
+export default function Header({ greeting }) {
   return <header>
     <div>
-      {text}
+      {greeting}
     </div>
   </header>;
 }
