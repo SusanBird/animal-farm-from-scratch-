@@ -1,0 +1,16 @@
+.animal {
+    width: 150px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .animal-name {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Space and Astronomy';
+  }
