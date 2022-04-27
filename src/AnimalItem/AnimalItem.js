@@ -1,4 +1,5 @@
 import React from 'react';
+import './AnimalItem.css';
 
 export default function AnimalItem({ type, name, says, top, left }) {
   return (
@@ -7,7 +8,7 @@ export default function AnimalItem({ type, name, says, top, left }) {
       top: top,
       left: left,
     }} >
-      <img className='animal-images' src={`./images/${type}.png`} width={100} />
+      <img className='animal-images' src={`./images/${type}.png`} width={150} />
       <p className='animal-name'> {name} </p> 
       <p className='animal-says'> {says} </p>
     </div>

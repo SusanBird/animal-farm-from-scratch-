@@ -1,13 +1,12 @@
 /* eslint-disable no-console */
 import React from 'react';
-import AnimalItem from '../AnimalItem';
-import backgroundImg from '../background.png';
+import AnimalItem from '../AnimalItem/AnimalItem';
 import './AnimalList.css';
 
 export default function AnimalList({ animals }) {
 //   console.log(animals);
   return (
-    <div className='animal-list' style={{ backgroundImage: `url(${backgroundImg})` }}>
+    <div className='animal-list'>
       {
         animals.map((animal) =>
           <AnimalItem
